@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-cm
+data:
+  repositories: |
+    - url: https://github.com/lcostea/argocd-config.git
+    - name: incubator
+      type: helm
+      url: https://kubernetes-charts-incubator.storage.googleapis.com/
+    - name: bitnami
+      type: helm
+      url: https://charts.bitnami.com/bitnami
