@@ -5,6 +5,6 @@
 
 
 ### Add external cluster to ArgoCD:
-[add external cluster](./docs/add-external-cluster.md)
+[add external clusters](./docs/add-external-clusters.md)
 
 
