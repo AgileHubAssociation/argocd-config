@@ -7,7 +7,7 @@
 
 2. Create the dev cluster and connect to it from argocd
    * kind create cluster --name dev-cluster --config docs/kind-configs/dev-cluster.yaml
-   * argocd cluster add kind-dev-cluster
+   * argocd cluster add kind-dev-cluster --name dev-cluster
 
 3. What argocd creates in the destination cluster
    * ServiceAccount
@@ -29,5 +29,5 @@
 
 5. Create the test cluster and connect to it from argocd
    * kind create cluster --name test-cluster --config docs/kind-configs/test-cluster.yaml
-   * argocd cluster add kind-test-cluster
+   * argocd cluster add kind-test-cluster --name test-cluster
 
