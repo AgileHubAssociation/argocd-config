@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: argocd
   source:
-    path: .
+    path: argocd
     repoURL: https://github.com/lcostea/argocd-config.git
     targetRevision: master
   syncPolicy:
