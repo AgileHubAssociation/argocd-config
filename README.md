@@ -1,16 +1,12 @@
 # argocd-config
-
-## Slides
-
-[GitOps with ArgoCD.pdf](./docs/GitOps-with-ArgoCD.pdf)
-
-## Exercises
+## Demos / Exercises
 
 ### Create a self managed ArgoCD installation:
-[self managed argocd.md](./docs/self-managed-argocd.md)
-
+[self managed argocd.md](./docs/1.self-managed-argocd.md)
 
 ### Add external cluster to ArgoCD:
-[add external clusters](./docs/add-external-clusters.md)
+[add external clusters](./docs/2.add-external-clusters.md)
 
+### Install in external clusters:
+[add external clusters](./docs/3.install-in-external-clusters.md)
 

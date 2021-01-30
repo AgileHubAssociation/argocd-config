@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: argocd-dex-server
+    app.kubernetes.io/part-of: argocd
+    app.kubernetes.io/component: dex-server
+  name: argocd-dex-server
+spec:
+  replicas: 0

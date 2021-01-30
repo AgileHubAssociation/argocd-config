@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: dev-cluster-root
+spec:
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
+  description: Project to configure applications for dev-cluster
+  destinations:
+  - namespace: argocd
+    server: https://kubernetes.default.svc
+  sourceRepos:
+  - https://github.com/lcostea/argocd-deploys.git
