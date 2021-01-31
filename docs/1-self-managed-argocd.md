@@ -4,7 +4,7 @@
    * start a kind cluster called argocd-cluster
    * install argo-cd version 1.8.2 with kustomize
    * apply the app and appproject to allow argo-cd to self-manage
-   * download the cli version 1.8.2
+   * download the cli version 1.8.2: argocd-1.8.2
    
 
 2.  Connect to the ArgoCD UI
