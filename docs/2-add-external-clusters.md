@@ -28,8 +28,3 @@
      * kubectl config use-context kind-argocd-cluster --namespace argocd
      * kubectl get secrets
      * kubectl get secrets NAME -o yaml
-
-5. Create the test cluster and connect to it from argocd
-   * kind create cluster --name test-cluster --config docs/kind-configs/test-cluster.yaml
-   * argocd cluster add kind-test-cluster --name test-cluster
-
